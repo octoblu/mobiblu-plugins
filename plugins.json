@@ -30,6 +30,7 @@
             "gulp-browserify": "~0.5.0",
             "mocha": "~1.21.4"
         },
+        "bundle": "https://raw.githubusercontent.com/peterdemartini/skynet-heartbeat/master/bundle.js",
         "dependencies": {
             "lodash": "~2.4.1",
             "noble": "git://github.com/octoblu/noble",
@@ -57,6 +58,7 @@
             "url": "https://github.com/octoblu/skynet-mobile-plugin-greeting/issues"
         },
         "homepage": "https://github.com/octoblu/skynet-mobile-plugin-greeting",
+        "bundle": "https://raw.githubusercontent.com/octoblu/skynet-mobile-plugin-greeting/master/bundle.js",
         "devDependencies": {
             "gulp": "~3.8.1",
             "gulp-browserify": "~0.5.0",
@@ -90,6 +92,7 @@
             "url": "https://github.com/octoblu/skynet-mobile-plugin-heartbeat/issues"
         },
         "homepage": "https://github.com/octoblu/skynet-mobile-plugin-heartbeat",
+        "bundle": "https://raw.githubusercontent.com/octoblu/skynet-mobile-plugin-heartbeat/master/bundle.js",
         "devDependencies": {
             "gulp": "~3.8.6",
             "gulp-browserify": "~0.5.0",

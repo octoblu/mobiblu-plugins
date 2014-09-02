@@ -29,6 +29,7 @@
     "gulp-browserify": "~0.5.0",
     "mocha": "~1.21.4"
   },
+  "bundle" : "https://raw.githubusercontent.com/peterdemartini/skynet-heartbeat/master/bundle.js",
   "dependencies": {
     "lodash": "~2.4.1",
     "noble": "git://github.com/octoblu/noble",
