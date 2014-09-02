@@ -1,0 +1,22 @@
+{
+  "name": "mobiblu-plugins",
+  "version": "0.1.0",
+  "description": "Mobiblu Plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node index.js && git add -A && git commit -m \"`date` latest plugins build\" && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/octoblu/mobiblu-plugins.git"
+  },
+  "author": "Octoblu, Inc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/octoblu/mobiblu-plugins/issues"
+  },
+  "homepage": "https://github.com/octoblu/mobiblu-plugins",
+  "dependencies": {
+  }
+}

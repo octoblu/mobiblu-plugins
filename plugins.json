@@ -1,0 +1,100 @@
+[
+    {
+        "name": "skynet-heartbeat",
+        "version": "0.1.2",
+        "description": "Skynet Gateblu and Mobiblu Heartbeat plugin",
+        "main": "index.js",
+        "scripts": {
+            "test": "mocha"
+        },
+        "repository": {
+            "type": "git",
+            "url": "git://github.com/peterdemartini/skynet-heartbeat.git"
+        },
+        "keywords": [
+            "Mobiblu",
+            "Gateblu",
+            "Skynet",
+            "Meshblu"
+        ],
+        "author": "Peter DeMartini",
+        "license": "MIT",
+        "bugs": {
+            "url": "https://github.com/peterdemartini/skynet-heartbeat/issues"
+        },
+        "homepage": "https://github.com/peterdemartini/skynet-heartbeat",
+        "devDependencies": {
+            "gulp-rename": "~1.2.0",
+            "gulp": "~3.8.7",
+            "gulp-uglify": "~1.0.0",
+            "gulp-browserify": "~0.5.0",
+            "mocha": "~1.21.4"
+        },
+        "dependencies": {
+            "lodash": "~2.4.1",
+            "noble": "git://github.com/octoblu/noble",
+            "ws": "~0.4.32"
+        }
+    },
+    {
+        "name": "skynet-mobile-plugin-greeting",
+        "version": "0.0.9",
+        "description": "Meshblu Mobile Greeting Plugin",
+        "main": "index.js",
+        "scripts": {
+            "test": "echo \"Error: no test specified\" && exit 1"
+        },
+        "repository": {
+            "type": "git",
+            "url": "git://github.com/octoblu/skynet-mobile-plugin-greeting.git"
+        },
+        "keywords": [
+            "skynet-mobile-plugin"
+        ],
+        "author": "Octoblu, Inc",
+        "license": "MIT",
+        "bugs": {
+            "url": "https://github.com/octoblu/skynet-mobile-plugin-greeting/issues"
+        },
+        "homepage": "https://github.com/octoblu/skynet-mobile-plugin-greeting",
+        "devDependencies": {
+            "gulp": "~3.8.1",
+            "gulp-browserify": "~0.5.0",
+            "gulp-rename": "~1.2.0",
+            "gulp-uglify": "~0.3.0"
+        }
+    },
+    {
+        "name": "skynet-mobile-plugin-heartbeat",
+        "version": "0.2.10",
+        "description": "Skynet Mobile Plugin for Heartbeat",
+        "main": "index.js",
+        "scripts": {
+            "test": "echo \"Error: no test specified\" && exit 1"
+        },
+        "repository": {
+            "type": "git",
+            "url": "git://github.com/octoblu/skynet-mobile-plugin-heartbeat.git"
+        },
+        "keywords": [
+            "skynet-mobile-plugin",
+            "heartbeat",
+            "btle"
+        ],
+        "author": [
+            "Octoblu, Inc",
+            "Peter DeMartini"
+        ],
+        "license": "MIT",
+        "bugs": {
+            "url": "https://github.com/octoblu/skynet-mobile-plugin-heartbeat/issues"
+        },
+        "homepage": "https://github.com/octoblu/skynet-mobile-plugin-heartbeat",
+        "devDependencies": {
+            "gulp": "~3.8.6",
+            "gulp-browserify": "~0.5.0",
+            "gulp-rename": "~1.2.0",
+            "gulp-uglify": "~0.3.0"
+        }
+    }
+]
